@@ -11,7 +11,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-paw3222-driver
+    - name: zmk-driver-paw3222
       remote: shakushakupanda
       revision: main
     - name: zmk-rgbled-widget  # <-- new entry
