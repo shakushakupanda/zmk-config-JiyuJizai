@@ -1,0 +1,8 @@
+file_format: "1"
+id: JiyuJizai
+name: JiyuJizai
+type: shield
+url: https://github.com/shakushakupanda/zmk-config-JiyuJizai
+requires: [seeeduino_xiao_ble]
+features:
+  - keys

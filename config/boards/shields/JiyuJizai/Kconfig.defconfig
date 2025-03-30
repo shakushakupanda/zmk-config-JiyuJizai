@@ -1,0 +1,22 @@
+if SHIELD_JIYUJIZAI_R
+
+config ZMK_KEYBOARD_NAME
+    default "JiyuJizai_R"
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_JIYUJIZAI_L
+
+config ZMK_KEYBOARD_NAME
+    default "JiyuJizai_L"
+
+config ZMK_SPLIT
+    default y
+
+endif

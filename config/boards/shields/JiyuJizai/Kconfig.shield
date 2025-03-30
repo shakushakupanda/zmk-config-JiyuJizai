@@ -1,0 +1,5 @@
+config SHIELD_JIYUJIZAI_R
+    def_bool $(shields_list_contains,JiyuJizai_R)
+
+config SHIELD_JIYUJIZAI_L
+    def_bool $(shields_list_contains,JiyuJizai_L)
