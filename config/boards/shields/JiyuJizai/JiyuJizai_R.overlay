@@ -1,4 +1,7 @@
 #include "JiyuJizai.dtsi"
+#include <input/processors.dtsi>
+#include <dt-bindings/zmk/input_transform.h>
+
 
 &default_transform {
     col-offset = <6>;
@@ -57,4 +60,7 @@
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         res-cpi   = <700>;
     };
+&trackball_listener {
+    input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
+};
 };
